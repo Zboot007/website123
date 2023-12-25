@@ -1,0 +1,183 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrows-expand-right.css');
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Nanum+Gothic&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --extrafont: "Nanum Gothic", sans-serif;
+    --bfont: "Abel", sans-serif;
+}
+.header {
+    display: flex;
+    background-color: darkgrey;
+    font-family: var(--bfont);
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    z-index: 10;
+    opacity: 0.8;
+    scroll-behavior: smooth;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    font-size: 30px;
+}
+.navigation {
+    width: 350px;
+    font-family: var(--extrafont);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+.video {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+.test {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    padding-bottom: 75%;
+}
+.image {
+    margin-top: 65px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 10%;
+}
+.Dolban {
+    font-size: 25px;
+    align-items: center;
+    width: 72%;
+    padding-left: 175px;
+    margin: 35px 0 0 0;
+}
+.block {
+    font-family: var(--extrafont);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.paragraph-top {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    font-size: 18px;
+}
+.picture {
+    width: 400px;
+    height: 300px;
+}
+.picture img {
+    width: 84%;
+    position: relative;
+    left: -328px;
+}
+.prisma {
+    overflow: hidden;
+    width: 1112px;
+    height: 365px;
+    margin-left: 363px;
+    border-radius: 20px;
+}
+.prisma img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.section2 {
+    margin: 0 19.5%;
+    font-size: 18px;
+    font-family: var(--bfont);
+}
+.section2 p {
+    margin: 16px 0 0 0;
+}
+.p {
+    font-size: 32px;
+    margin: 30px 0 !important;
+}
+.static {
+    margin-top: 15px;
+    position: relative;
+    top: 20px;
+    right: -363px;
+    width: 60%;
+    height: 35%;
+    background: #042209;
+    padding: 25px;
+    font-family: var(--extrafont);
+    border-radius: 23px;
+}
+.static p {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+.pa {
+    font-size: 20px;
+}
+.btns {
+    display: flex;
+    justify-content: end;
+}
+.btnplace{
+    width: 100%;
+    height: 50px;
+    margin-left: 18px;
+    display: flex;
+    margin: 5px 0;
+}
+.btn{
+    width: 100%;
+    background-color:#031606;
+    color:darkgray;
+    border-radius:1px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items:center;
+    border: 2px solid #21c96a;
+    padding-left: 5px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#09280e;
+    border-radius:20px;
+}
+.gg-arrows-expand-right{
+    color:#fff;
+    position: relative;
+    left:-33px;
+    top:16px;
+    cursor:context-menu;
+    z-index: 1;
+}
+.next{
+    border-style: none;
+    cursor: pointer;
+    background-color:#042209;
+    color:#fff;
+
+}
